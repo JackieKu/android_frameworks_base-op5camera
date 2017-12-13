@@ -213,7 +213,7 @@ public class Camera {
     private static final int CAMERA_MSG_STATE_CALLBACK = 0x100000;
     private static final int CAMERA_MSG_RAW_IMAGE_DUMMY = 0x120000;
 
-    private static CameraMetadataNative mMetadata;
+    private CameraMetadataNative mMetadata;
     private long mMetadataPtr; 
     private CameraCharacteristics mCharacteristics;
     private android.hardware.Camera.AECallback mAECallback;
