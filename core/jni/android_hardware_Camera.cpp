@@ -295,7 +295,7 @@ void JNICameraContext::copyAndPost(JNIEnv* env, const sp<IMemory>& dataPtr, int 
                         return;
                     }
                 }
-            } else if (msgType == 0x10000) {
+            } else if (msgType == 0x40000) {
                 jobject cameraJObject = jniGetReferent(env, mCameraJObjectWeak);
                 if (!cameraJObject) {
                     ALOGW("Camera is dead.");
