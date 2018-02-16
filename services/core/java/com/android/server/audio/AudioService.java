@@ -6190,6 +6190,7 @@ public class AudioService extends IAudioService.Stub
     //==========================================================================================
     private boolean readCameraSoundForced() {
         return SystemProperties.getBoolean("audio.camerasound.force", false) ||
+                SystemProperties.getBoolean("persist.sys.camera-sound", true) &&
                 mContext.getResources().getBoolean(
                         com.android.internal.R.bool.config_camera_sound_forced);
     }
