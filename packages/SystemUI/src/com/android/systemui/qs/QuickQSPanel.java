@@ -47,7 +47,7 @@ import java.util.Collection;
 public class QuickQSPanel extends QSPanel {
 
     public static final String NUM_QUICK_TILES = "sysui_qqs_count";
-    public static int NUM_QUICK_TILES_DEFAULT = 6;
+    public static int NUM_QUICK_TILES_DEFAULT = 8;
     public static final int NUM_QUICK_TILES_ALL = 666;
 
     private int mMaxTiles = NUM_QUICK_TILES_DEFAULT;
