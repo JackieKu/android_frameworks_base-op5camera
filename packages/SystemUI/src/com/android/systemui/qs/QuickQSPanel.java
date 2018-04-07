@@ -45,7 +45,7 @@ public class QuickQSPanel extends QSPanel {
     public static final String NUM_QUICK_TILES = "sysui_qqs_count";
 
     private boolean mDisabledByPolicy;
-    private int mMaxTiles;
+    private int mMaxTiles = 8;
     protected QSPanel mFullPanel;
 
     public QuickQSPanel(Context context, AttributeSet attrs) {
